@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": ["summary","flow","wastes","root_causes","recommendations","quick_test","kpis","next_check_in_days"],
+  "properties": {
+    "summary": {"type":"string"},
+    "flow": {"enum":["field_ops","post_harvest","livestock","inputs_logistics","back_office"]},
+    "wastes": {"type":"array","items":{"type":"string"}},
+    "root_causes": {"type":"array","items":{"type":"string"}},
+    "recommendations": {
+      "type":"array",
+      "items":{"type":"object","required":["action","impact","effort"],
+        "properties":{"action":{"type":"string"},"impact":{"enum":["low","medium","high"]},"effort":{"enum":["low","medium","high"]}}
+      }
+    },
+    "quick_test": {"type":"string"},
+    "kpis": {"type":"array","items":{"type":"string"}},
+    "next_check_in_days": {"type":"integer"}
+  }
+}

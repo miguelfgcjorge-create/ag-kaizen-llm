@@ -1,0 +1,19 @@
+flows: [field_ops, post_harvest, livestock, inputs_logistics, back_office]
+wastes: [overproduction, waiting, transport, overprocessing, inventory, motion, defects, underutilized_people]
+cross_cutting: [water_efficiency, energy_efficiency, safety_biosecurity, sustainability, seasonality]
+
+synonyms:
+  field_ops: ["field", "planting", "cultivation", "irrigation", "harvest", "harvesting", "tractor"]
+  post_harvest: ["after harvest", "packing house", "shed", "cool room", "sorting line", "packhouse", "postharvest"]
+  livestock: ["milking", "herd", "cattle", "dairy", "feed", "barn"]
+  inputs_logistics: ["warehouse", "stock", "inventory", "forklift", "crates", "transport", "truck"]
+  back_office: ["planning", "schedule", "traceability", "paperwork", "compliance"]
+
+  waiting: ["delay", "late", "queue", "no trucks", "stuck", "hold-up", "waiting"]
+  motion: ["walk", "walking", "steps", "moving around", "reach", "stretch"]
+  transport: ["moving crates", "long distance", "hauling", "forklift runs"]
+  defects: ["spoilage", "bruising", "rejections", "off-grade", "contamination", "brown"]
+  inventory: ["stockout", "too much stock", "no parts", "missing fittings"]
+  overprocessing: ["rework", "double handling", "too many checks"]
+  overproduction: ["produced too much", "excess harvest"]
+  underutilized_people: ["no training", "skills unused", "idle staff"]
