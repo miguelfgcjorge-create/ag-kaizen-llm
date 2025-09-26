@@ -1,3 +1,7 @@
-fastapi
+openai
 uvicorn[standard]
+fastapi
 pydantic
+pyyaml
+chromadb
+tiktoken
